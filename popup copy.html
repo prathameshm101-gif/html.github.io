@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Confetti Cannon</title>
+  <style>
+    :root {
+      --color-violet: #ffffff;
+      --color-purple: #bea4ff;
+      --color-yellow: #feb535;
+      --color-red: #ff6e83;
+      --color-cyan: #58cafe;
+      --animation-duration: 1.2s;
+    }
+
+    @keyframes cannon-explosion {
+      0% {
+        transform: scale(0);
+      }
+      80% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes confetti-rotate-l {
+      0% {
+        transform: rotate(0) scaleY(1);
+      }
+      50% {
+        transform: rotate(2turn) scaleY(1.5);
+      }
+      100% {
+        transform: rotate(2.05turn) scaleY(1);
+      }
+    }
+
+    @keyframes confetti-rotate-r {
+      0% {
+        transform: rotate(0) scaleY(1);
+      }
+      50% {
+        transform: rotate(-2turn) scaleY(1.5);
+      }
+      100% {
+        transform: rotate(-2.05turn) scaleY(1);
+      }
+    }
+
+    html {
+      background-color: var(--color-violet);
+    }
+
+    .party-popper {
+      position: absolute;
+      left: 1rem;
+      bottom: 0%;
+      font-size: 2em;
+      transform: translateX(-50%) rotate(-5deg);
+    }
+
+    .cannon {
+      height: 70vh;
+      width: 1px;
+      position: absolute;
+      left: 5;
+      bottom: 5vh;
+      transform-origin: 50% 100%;
+      animation: cannon-explosion var(--animation-duration) cubic-bezier(0.18, 0.89, 0.32, 1.28) both;
+      animation-iteration-count: infinite;
+    }
+
+
+
+
+
+    .cannon__path {
+      position: absolute;
+      bottom: 0;
+      left: -20%;
+      width: 100%;
+      transform-origin: 50% 100%;
+      padding-bottom: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .cannon__path--lg { height: 100%; }
+    .cannon__path--md { height: 95%; }
+    .cannon__path--sm { height: 90%; }
+
+    .cannon__path--angle-2 { transform: rotate(-15deg); }
+    .cannon__path--angle-1 { transform: rotate(-7.5deg); }
+    .cannon__path--angle0   { transform: rotate(0deg); }
+    .cannon__path--angle1   { transform: rotate(7.5deg); }
+    .cannon__path--angle2   { transform: rotate(15deg); }
+
+    .cannon__confetti {
+      flex: 0 1 auto;
+      animation-duration: var(--animation-duration);
+      animation-timing-function: ease-out;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+    }
+
+    .cannon__confetti:nth-child(even) {
+      animation-name: confetti-rotate-l;
+    }
+
+    .cannon__confetti:nth-child(odd) {
+      animation-name: confetti-rotate-r;
+    }
+
+    .cannon__confetti--ribbon {
+      height: 1em;
+      width: 0.5em;
+      border-radius: 0.1em;
+    }
+
+    .cannon__confetti--flake {
+      height: 0.5em;
+      width: 0.5em;
+      border-radius: 50%;
+    }
+
+    .cannon__confetti--color-1 { background-color: var(--color-yellow); }
+    .cannon__confetti--color-2 { background-color: var(--color-purple); }
+    .cannon__confetti--color-3 { background-color: var(--color-red); }
+    .cannon__confetti--color-4 { background-color: var(--color-cyan); }
+  </style>
+</head>
+<body>
+  <div class="party-popper">🎉</div>
+  
+  <div class="cannon" >
+    <div class="cannon__path cannon__path--sm cannon__path--angle-2">
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-3"></div>
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-1"></div>
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-2"></div>
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-1"></div>
+    </div>
+    <div class="cannon__path cannon__path--md cannon__path--angle-1">
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-2"></div>
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-2"></div>
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-3"></div>
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-1"></div>
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-4"></div>
+    </div>
+    <div class="cannon__path cannon__path--lg cannon__path--angle0">
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-1"></div>
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-4"></div>
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-2"></div>
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-3"></div>
+    </div>
+    <div class="cannon__path cannon__path--md cannon__path--angle1">
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-3"></div>
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-1"></div>
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-4"></div>
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-3"></div>
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-2"></div>
+    </div>
+    <div class="cannon__path cannon__path--sm cannon__path--angle2">
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-2"></div>
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-3"></div>
+      <div class="cannon__confetti cannon__confetti--flake cannon__confetti--color-4"></div>
+      <div class="cannon__confetti cannon__confetti--ribbon cannon__confetti--color-1"></div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+// data.js
+export const servicePrice = [
+  {
+    id: 1,
+    title: "Clear Aligners",
+    serviceDescription1:
+      'At Orthosquare, we offer clear aligners designed for comfort, precision, and faster results. Created by our expert orthodontists, each aligner is custom-made to fit your unique smile, delivering effective, discreet treatment at prices comparable to traditional braces.',
+    serviceDescription2:
+      'Pricing is tailored to the complexity of your case, as higher complexity requires additional aligners, time, and personalized care from our specialists.',
+    startingPrice: '25,000',
+    marketPrice: ["Market Price for Aligners", "₹45,000 - ₹4,50,000"],
+    ourPrice: ["Orthosquare’s Aligners Price", "₹25,000 - ₹3,00,000"],
+  },
+  {
+    id: 2,
+    title: "Dental Implants",
+    serviceDescription1:
+      'At Orthosquare, we offer dental implants designed for durability, precision, and natural-looking results. Created by our expert implantologists, each implant is custom-planned to suit your unique dental needs, delivering effective, long-lasting solutions at prices comparable to advanced dental treatments.',
+    serviceDescription2:
+      'Pricing is tailored to the complexity of your case, as more extensive procedures may require additional implants, surgical expertise, and personalized care from our specialists.',
+    startingPrice: '15,000',
+    marketPrice: ["Market Price for Implants", "₹20,000 - ₹6,50,000"],
+    ourPrice: ["Orthosquare’s Implants Price", "₹15,000 - ₹60,000"],
+  },
+  {
+    id: 3,
+    title: "Crowns",
+    serviceDescription1:
+      'At Orthosquare, we offer high-quality crowns and bridges designed for durability, precision, and a natural appearance. Crafted to match your unique dental structure, each restoration ensures seamless function and aesthetics. By using stringent quality standards, we deliver reliable, long-lasting solutions that restore both health and confidence.',
+    serviceDescription2:
+      'Pricing is customized based on the type of crown or bridge, materials selected, and the complexity of your case. More intricate cases may require additional customization, time, and specialized care.',
+    startingPrice: '1,000',
+    marketPrice: ["Market Price for Crowns", "₹4,000 - ₹30,000"],
+    ourPrice: ["Orthosquare’s Crowns Price", "₹1,000 - ₹35,000"],
+  },
+  {
+    id: 4,
+    title: "Tooth Extraction",
+    serviceDescription1:
+      'At Orthosquare, we provide gentle tooth extractions performed with precision and patient comfort in mind. Our expert oral surgeons use advanced techniques to ensure minimal discomfort and optimal healing, whether it’s a routine removal or a more complex surgical extraction.',
+    serviceDescription2:
+      'Pricing is customized based on the complexity of your extraction—factors such as tooth position, root anatomy, and any required sedation or surgical steps. More intricate cases may involve additional consultation, specialized anesthesia, and post-operative support.',
+    startingPrice: '200',
+    marketPrice: ["Market Tooth Ext. Price", "₹2,000 - ₹20,000"],
+    ourPrice: ["Orthosquare’s Tooth Ext. Price", "₹200 - ₹20,000"],
+  },
+  {
+    id: 5,
+    title: "Dental Bonding",
+    serviceDescription1:
+      `At Orthosquare, we offer high-quality dental bonding to restore the natural look and function of your teeth. Whether you're looking to repair a chipped tooth, close gaps, or enhance the overall appearance of your smile, our skilled team uses advanced bonding materials for a seamless finish.`,
+    serviceDescription2:
+      'Pricing is tailored to the specifics of your treatment, such as the number of teeth being treated and the complexity of the procedure. We ensure that the process is comfortable and efficient, offering a durable and aesthetically pleasing result that lasts.',
+    startingPrice: '1500',
+    marketPrice: ["Market Dental Bonding Price", "₹2,000 - ₹20,000"],
+    ourPrice: ["Orthosquare’s Dental Bonding Price", "₹1500 - ₹18,000"],
+  },
+  {
+    id: 6,
+    title: "Dental Braces",
+    serviceDescription1:
+      'At Orthosquare, we provide customized metal, ceramic, or self-ligating braces for precise, comfortable teeth alignment. Our expert orthodontists design and adjust your treatment plan throughout the process to ensure optimal results and a confident smile.',
+    serviceDescription2:
+      'Pricing is tailored to brace type, case complexity, and treatment duration—any additional appliances or visits are reflected in your personalized quote. With flexible payment options, achieving your dream smile has never been more accessible.',
+    startingPrice: '',
+    marketPrice: ["Market Dental Braces Price", "₹25,000 - ₹1,20,000"],
+    ourPrice: ["Orthosquare’s Dental Braces Price", "₹18,000 - ₹1,20,000"],
+  },
+  {
+    id: 7,
+    title: "Teeth Whitening",
+    serviceDescription1:
+      'At Orthosquare, we offer professional teeth whitening treatments using advanced bleaching systems for fast, safe, and noticeable results. Our enamel-safe formula ensures minimal sensitivity and lasting results.',
+    serviceDescription2:
+      'Pricing is customized based on your chosen whitening method and the number of sessions required.With flexible payment options, your brighter smile is within easy reach.',
+    startingPrice: ' 2,999',
+    marketPrice: ["Market Teeth Whitening Price", "₹7,000 - ₹25,000"],
+    ourPrice: ["Orthosquare’s Teeth Whitening Price", "₹2,999 - ₹25,000"],
+  }, {
+    id: 8,
+    title: "Root Canal Treatment",
+    serviceDescription1:
+      'At Orthosquare, our endodontic specialists deliver gentle root canal treatments using state-of-the-art rotary instruments and biocompatible materials for precise cleaning and optimal healing. With flexible payment options, restoring your dental health is both accessible and affordable',
+    serviceDescription2:
+      'Pricing is customized based on tooth type and treatment complexity, with any additional procedures reflected in your personalized quote. We prioritize your comfort with effective anesthesia and optional sedation for a stress-free experience',
+  startingPrice: ' 1,500',
+    marketPrice: ["Market Root Canal Price", "₹4,500 - ₹18,000"],
+    ourPrice: ["Orthosquare’s Root Canal Price", "₹1,500 - ₹10,000"],
+    },
+    {
+      id: 9,
+      title: "Scaling & Root Planing",
+      serviceDescription1:
+        'At Orthosquare, we offer professional scaling and root planing treatments to effectively remove plaque, tartar, and bacteria from above and below the gumline, promoting healthier gums and fresher breath. Flexible payment plans make routine gum care easier than ever',
+      serviceDescription2:
+        'Pricing is tailored to the severity of gum disease and the number of sessions required for complete care. Our gentle techniques ensure minimal discomfort with long-lasting oral health benefits.',
+    startingPrice: ' 1,500',
+      marketPrice: ["Market Scaling Price", "₹2,000 - ₹10,000"],
+      ourPrice: ["Orthosquare’s Scaling Price", "₹1,500 - ₹10,000"]
+    },
+    {
+      id: 10,
+      title: "Complete Dentures",
+      serviceDescription1:
+        "At Orthosquare, we offer high-quality complete dentures designed for a natural look, comfortable fit, and restored oral function. Each set is custom-made to suit your facial structure and bite for improved aesthetics and confident chewing. Our specialists ensure a seamless fitting process with adjustments for optimal comfort and function.",
+      serviceDescription2:
+        "Pricing depends on the type of denture, materials chosen, and any additional procedures required for preparation.",
+      startingPrice: "4,000",
+      marketPrice: ["Market Dentures Price", "₹10,000 - ₹2,00,000"],
+      ourPrice: ["Orthosquare’s Dentures Price", "₹4,000 - ₹50,000"]
+    }
+  ];
