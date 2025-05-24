@@ -41,43 +41,53 @@
 }
 </script>
 
+<style>
+
+
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .text-overlay h2,
+  .text-overlay h1 {
+    display: block;
+    white-space: nowrap;
+  }
+  .text-overlay p {
+    display: block;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 768px) {
+
+    .text-overlay h2{
+    display: block;
+    white-space: nowrap;
+    font-size: 80%;
+  }
+  .text-overlay h1 {
+    display: block;
+    white-space: nowrap;
+    font-size: 100%;
+  }
+  .text-overlay p{
+
+  font-size: 60%;
+  }
+  }
+</style>
   <style>
 
     #bg-color {
       background-color: #FF7F00;
     }
-.text-overlay {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        color: #fff;
-        width: 100%;
-        padding: 0 20px;
-      }
-
-      .text-overlay h2,
-      .text-overlay h1,
-      .text-overlay p {
-        display: block;
-        white-space: nowrap;
-      }
-
-      @media (max-width: 768px) {
-  
-        .text-overlay h2,
-      .text-overlay h1,
-      .text-overlay p {
-        display: block;
-        white-space: nowrap;
-      }
-      .text-overlay p{
-        white-space:warp;
-        font-size: 60%;
-      }
-
-      }
 
     .btn span {
       font-weight: 600;
@@ -213,9 +223,9 @@
   <div class="position-relative">
     <img src="./image/headerabout.png" class="img-fluid rounded-top" alt="" />
     <div class="text-overlay">
-      <h2 class="fw-normal mb-3 text-light">Know The Visionaries Behind</h2>
-      <h1 class="fw-bolder text-uppercase mb-3 text-light">INDIA'S LEADING DENTAL CHAIN</h1>
-      <p class="text-dark mb-0  ">Providing outstanding care and delivering exceptional results to you.</p>
+      <h2 class="fw-normal  text-light">Know The Visionaries Behind</h2>
+      <h1 class="fw-bolder text-uppercase  text-light">INDIA'S LEADING DENTAL CHAIN</h1>
+      <p class="lead text-dark mb-0">Providing outstanding care and delivering exceptional results to you.</p>
     </div>
   </div>
 
