@@ -361,7 +361,7 @@
             </div>
           </div>
           <div class="text-center profile-buttons mt-2">
-            <a href="#" class="btn">Consult With Dr. Kunal</a>
+            <a href="#" class="btn" data-toggle="modal" data-target="#form">Consult With Dr. Kunal</a>
             <a href="https://www.drkunalshet.com/" target="_blank" class="btn">Discover His Portfolio</a>
           </div>
         </div>
@@ -489,7 +489,7 @@
             </div>
           </div>
           <div class="text-center profile-buttons mt-2">
-            <a href="#" class="btn">Schedule Appointment With Dr. Riddhi</a>
+            <a href="#" class="btn" data-toggle="modal" data-target="#form">Schedule Appointment With Dr. Riddhi</a>
           </div>
         </div>
       </div>
@@ -506,7 +506,7 @@
       Proudly Setting New Standards in Dental Excellence!
     </h2>
     <span style="background-color: #FF7F00; border-radius: 25px;">
-      <a href="#" class="btn text-light fw-bold">View Our Achievements</a>
+      <a href="#" class="btn text-light fw-bold" data-toggle="modal" data-target="#form">View Our Achievements</a>
     </span>
   </div>
 
@@ -1060,12 +1060,82 @@
       Why Wait? Your Smile Deserves the Best Today!
     </h2>
     <span style="background-color: #FF7F00; border-radius: 25px;">
-      <a href="#" class="btn text-light fw-bold">Unlock My Exclusive Offer</a>
+      <a href="#" class="btn text-light fw-bold " data-toggle="modal" data-target="#form">Unlock My Exclusive Offer</a>
     </span>
   </div>
+  <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content" style="background-color: transparent; border:none;">
+        <img width="45%" src="download.png" style="margin:auto; z-index:9" loading="lazy" alt="download">
+        <div class="modal-header border-bottom-0 bg-white" style="margin-top: -100px;
+    padding-top: 100px;">
+          <h5 class="modal-title" id="exampleModalLabel" style="text-align:center;">Book an Appointment</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form method="POST" action="mail.php" class="bg-white px-3">
+          <div class="modal-body">
+            <div class="row">
+              <div class="form-group col-12">
+                <label for="first-name">Full Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="fname" aria-describedby="" name="fullname"
+                  placeholder="Enter Full Name" required style="height: 50px !important;">
 
+              </div>
+              <div class="form-group col-6">
+                <label for="number">Phone Number <span class="text-danger">*</span></label>
+                <input type="tel" class="form-control" id="number" aria-describedby="" placeholder="Enter Phone Number"
+                  name="mobile" required style="height: 50px !important;">
+                <div id="phone_error" class="error_ hidden">Please enter a valid phone number</div>
+              </div>
+              <div class="form-group col-6">
+                <label for="email">Email <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="email" placeholder="Email" name="email" required
+                  style="height: 50px !important;">
+                <input type="hidden" name="services" value="-">
+              </div>
+              <div class="form-group col-12">
+                <label for="postcode">Postal Code<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="postcode" placeholder="Postal Code" name="postcode" required
+                  style="height: 50px !important;">
+                <input type="hidden" name="services" value="-">
+
+
+                <input type="hidden" class="form-control" name="UTM_Campaign" value="<?php echo $UTM_Campaign; ?>">
+
+                <input type="hidden" class="form-control" name="UTM_Medium" value="<?php echo $UTM_Medium; ?>">
+
+                <input type="hidden" class="form-control" name="UTM_Source" value="<?php echo $UTM_Source; ?>">
+
+
+                <input type="hidden" class="form-control" name="utm_term" value="<?php echo $utm_term; ?>">
+
+                <input type="hidden" class="form-control" name="utm_content" value="<?php echo $utm_content; ?>">
+
+
+
+              </div>
+              <div class="modal-footer border-top-0 d-flex justify-content-center">
+                <button type="submit" class="btn btn-success">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- jQuery, Popper, and Bootstrap 4 JS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+     crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+     integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+     crossorigin="anonymous"></script>
 </body>
 
 </html>
