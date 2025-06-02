@@ -58,6 +58,15 @@
     display: block;
     white-space: nowrap;
   }
+
+  .top-text{
+    font-size: 2.4rem;
+  }
+  .text-overlay h1 {
+    font-size: 3rem;
+  }
+
+
   .text-overlay p {
     display: block;
     margin: 0 auto;
@@ -160,63 +169,67 @@
       align-items: center;
     }
 
-    .carousel-inner,
-    .carousel-item {
-      height: 100%;
-    }
+      .carousel-inner,
+      .carousel-item {
+        height: 100%;
+      }
 
-    .carousel-item .row {
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-    }
+      .carousel-item .row {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
 
-    .crousel-card {
-      overflow: hidden;
-      cursor: pointer;
-      width: 300px;
-      border: 1px solid #ddd;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 0.5rem;
-      transition: transform 0.3s ease;
-    }
+      .crousel-card {
+        overflow: hidden;
+        cursor: pointer;
+        width: 300px;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        transition: transform 0.3s ease;
+      }
 
-    .crousel-card:hover {
-      transform: translateY(-5px);
-    }
+      .crousel-card:hover {
+        transform: translateY(-5px);
+      }
 
-    .img-container {
-      position: relative;
-      overflow: hidden;
-    }
+      .img-container {
+        position: relative;
+        overflow: hidden;
+        margin:5px;
+        border-radius: 3%;
+      }
 
-    .img-container img {
-      display: block;
-      object-fit:cover;
-      max-height: 60vh;
-      width: auto;
-    }
+      .img-container img {
+        display: block;
+        object-fit: cover;
+        max-height: 60vh;
+        width: 100%;
+        height: 100%;
 
-    .img-container .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(5, 120, 177, 1));
-      color: #fff;
-      display: flex;
-      align-items:left;
-      justify-content: center;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-      padding: 1rem;
-      text-align: left;
-    }
+      }
 
-    .img-container:hover .overlay {
-      opacity: 1;
-    }
+      .img-container .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(5, 120, 177, 1));
+        color: #fff;
+        display: flex;
+        align-items:left;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        padding: 1rem;
+        text-align: left;
+      }
+
+      .img-container:hover .overlay {
+        opacity: 1;
+      }
   </style>
 </head>
 
@@ -408,13 +421,13 @@
 <!-- desktop -->
 <div class="director-heade text-center p-3 d-flex flex-column align-items-center justify-content-center d-none d-md-block">
   <h2 style="color: #0578B1; letter-spacing: 4px;" class="fw-bold">Our Directors</h2>
-  <h3 class=" col-8 text-center fs-5" >Our administration and support staff have exceptional skills and are trained to assist you with all medical
+  <h3 class="col-8 fs-5 text-center mx-auto">Our administration and support staff have exceptional skills and are trained to assist you with all medical
     inquiries. We take pride in being associated with the best dentist in India.</h3>
 </div>
 <!-- mobile -->
 <div class="director-heade text-center p-3 d-flex flex-column align-items-center justify-content-center d-md-none d-lg-none">
   <h2 style="color: #0578B1; letter-spacing: 4px;" class="fw-bold">Our Directors </h2>
-  <h3 class=" font-of-crousel col-12  text-center fs-6"  >Our administration and support staff have exceptional skills and are trained to assist you with all medical
+  <h3 class=" font-of-crousel col-12   fs-6 text-center mx-auto"  >Our administration and support staff have exceptional skills and are trained to assist you with all medical
     inquiries. We take pride in being associated with the best dentist in India.</h3>
 </div>
 
@@ -428,7 +441,7 @@
           <div class="col-auto">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/sayali.png" alt="orthosquare dentist">
+                <img src="./image/sayali.jpg" alt="orthosquare dentist">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Certified Implantologist and Esthetic Dentist with 11 years of experience.</li>
@@ -451,7 +464,7 @@
           <div class="col-auto">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/nilay.png" alt="orthosquare doctor">
+                <img src="./image/nilay.jpg" alt="orthosquare doctor">
                 <div class="overlay" >
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Specializes in crafting customized smiles with advanced techniques.</li>
@@ -473,7 +486,7 @@
           <div class="col-auto">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/apurva.png" alt="orthosquare doctor team">
+                <img src="./image/apurva.jpg" alt="orthosquare doctor team">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Specialized expertise in oral & maxillofacial surgery</li>
@@ -501,7 +514,7 @@
           <div class="col-auto">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/isha.png" alt="orthosquare dental specialist">
+                <img src="./image/isha.jpg" alt="orthosquare dental specialist">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Specializes in crafting customized smiles with advanced techniques.</li>
@@ -524,7 +537,7 @@
           <div class="col-auto">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/madhu.png" alt="orthosquare doctor">
+                <img src="./image/madhu.jpg" alt="orthosquare doctor">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Expertise in Clinical and Public dentistry</li>
@@ -545,7 +558,7 @@
           <div class="col-auto">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/ruchi.png" alt="orthosquare doctor team">
+                <img src="./image/ruchi.jpg" alt="orthosquare doctor team">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Certified Implantologist with expertise in Botox, Fillers, Aesthetics, Aligners, Full Mouth Rehabilitation and Gums.</li>
@@ -573,7 +586,7 @@
           <div class="col-auto">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/divya.png" alt="orthosquare doctor">
+                <img src="./image/divya.jpg" alt="orthosquare doctor">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Over 12 years of clinical experience in aesthetic dentistry.</li>
@@ -595,7 +608,7 @@
           <div class="col-auto">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/akhil.png" alt="orthosquare dentist">
+                <img src="./image/akhil.jpg" alt="orthosquare dentist">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Certified Implantologist specializing in Full Mouth Rehabilitation and Smile Designing.</li>
@@ -617,7 +630,7 @@
           <div class="col-auto">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/akash.png" alt="orthosquare doctor">
+                <img src="./image/akash.jpg" alt="orthosquare doctor">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Second-generation dentist with a strong dental legacy.</li>
@@ -653,7 +666,7 @@
           <div class="col-10">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/sayali.png" alt="orthosquare dentist" class="img-fluid w-100 d-block mx-auto">
+                <img src="./image/sayali.jpg" alt="orthosquare dentist" class="img-fluid w-100 d-block mx-auto">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Certified Implantologist and Esthetic Dentist with 11 years of experience.</li>
@@ -680,7 +693,7 @@
           <div class="col-10">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/nilay.png" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
+                <img src="./image/nilay.jpg" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Specializes in crafting customized smiles with advanced techniques.</li>
@@ -707,7 +720,7 @@
           <div class="col-10">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/apurva.png" alt="orthosquare doctor team" class="img-fluid w-100 d-block mx-auto">
+                <img src="./image/apurva.jpg" alt="orthosquare doctor team" class="img-fluid w-100 d-block mx-auto">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Specialized expertise in oral & maxillofacial surgery</li>
@@ -733,7 +746,7 @@
           <div class="col-10">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/isha.png" alt="orthosquare dental specialist" class="img-fluid w-100 d-block mx-auto">
+                <img src="./image/isha.jpg" alt="orthosquare dental specialist" class="img-fluid w-100 d-block mx-auto">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Specializes in crafting customized smiles with advanced techniques.</li>
@@ -760,7 +773,7 @@
           <div class="col-10">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/madhu.png" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
+                <img src="./image/madhu.jpg" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Expertise in Clinical and Public dentistry</li>
@@ -786,7 +799,7 @@
           <div class="col-10">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/ruchi.png" alt="orthosquare doctor team" class="img-fluid w-100 d-block mx-auto">
+                <img src="./image/ruchi.jpg" alt="orthosquare doctor team" class="img-fluid w-100 d-block mx-auto">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Certified Implantologist with expertise in Botox, Fillers, Aesthetics, Aligners, Full Mouth Rehabilitation and Gums.</li>
@@ -813,7 +826,7 @@
           <div class="col-10">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/divya.png" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
+                <img src="./image/divya.jpg" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Over 12 years of clinical experience in aesthetic dentistry.</li>
@@ -840,7 +853,7 @@
           <div class="col-10">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/akhil.png" alt="orthosquare dentist" class="img-fluid w-100 d-block mx-auto">
+                <img src="./image/akhil.jpg" alt="orthosquare dentist" class="img-fluid w-100 d-block mx-auto">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Certified Implantologist specializing in Full Mouth Rehabilitation and Smile Designing.</li>
@@ -869,7 +882,7 @@
           <div class="col-10">
             <div class="card crousel-card">
               <div class="img-container">
-                <img src="./image/akash.png" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
+                <img src="./image/akash.jpg" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
                 <div class="overlay">
                   <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
                     <li>Second-generation dentist with a strong dental legacy.</li>
@@ -911,33 +924,33 @@
         <p class="m-0 text-center">WE</p>
       </div>
       <div class="col-4 ratio-1x1 p-0">
-        <img src="./image/g1.png" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
+        <img src="./image/g1.jpg" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
       </div>
       <div class="col-4 ratio-1x1 p-0">
-        <img src="./image/g2.png" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
+        <img src="./image/g2.jpg" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
       </div>
     </div>
     <div class="row">
 
       <div class="col-4 ratio-1x1 p-0">
-        <img src="./image/g3.png" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
+        <img src="./image/g3.jpg" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
       </div>
       <div class="col-4 ratio-1x1 text-light d-flex align-items-center justify-content-center fs-4 fs-lg-1"
         style="background-color: #0578B1;">
         ARE
       </div>
       <div class="col-4 ratio-1x1 p-0">
-        <img src="./image/g4.png" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
+        <img src="./image/g4.jpg" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
       </div>
     </div>
     <div class="row">
 
       <div class="col-4 ratio-1x1 p-0">
-        <img src="./image/g5.png" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
+        <img src="./image/g5.jpg" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
       </div>
 
       <div class="col-4 ratio-1x1 p-0">
-        <img src="./image/g6.png" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
+        <img src="./image/g6.jpg" alt="Image 1" class="img-fluid ratio-1x1 w-100 h-100 object-fit-cover">
       </div>
       <div class="col-4 ratio-1x1 text-light d-flex align-items-center justify-content-center fs-4 fs-lg-1"
       style="background-color: #0578B1;">
