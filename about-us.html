@@ -287,7 +287,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.25rem;
+      font-size: 1.5rem;
     }
 
     /* Limit width to 600px on screens ≥768px (tablet and larger) */
@@ -296,6 +296,13 @@
         max-width: 800px;
         margin: 0 auto;
       }
+    }
+
+    @media (max-width: 450px) {
+      .square-text-box {
+        font-size: 0.9rem;
+        font-weight: 900px;
+      };
     }
   </style>
 </head>
@@ -497,18 +504,18 @@
     </div>
   </div>
 
-  <div class="container my-3 p-3 rounded d-flex justify-content-between align-items-center"
-    style="border: 0.2rem solid #0578B1; max-width: 1000px; margin: auto; ">
-    <h2 style="color: #0578B1;" class="fw-bold fs-6 m-0 d-md-none d-lg-none">
-      Proudly Setting New Standards in Dental Excellence!
-    </h2>
-    <h2 style="color: #0578B1;" class="fw-bold m-0 fs-4 d-none d-md-block ">
-      Proudly Setting New Standards in Dental Excellence!
-    </h2>
-    <span style="background-color: #FF7F00; border-radius: 25px;">
-      <a href="#" class="btn text-light fw-bold" data-toggle="modal" data-target="#form">View Our Achievements</a>
-    </span>
-  </div>
+  <div class="container p-5">
+    <div class="row  p-2 " style="border-radius: 20px;border:0.1rem solid #0578B1; color: #0578B1;">
+        <div class="col-sm-12 col-md-9 col-lg-9 d-flex justify-content-center align-items-center">
+            <h2 class="heading text-center mb-0 " style="line-height: 1.6rem;">Join the Team at Orthosquare & Shape Smiles!</h2>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 p-3 py-md-1  d-flex justify-content-center align-items-center">
+            <a href="#" data-toggle="modal" data-target="#form" class="btn btn__primary btn__rounded" style="background-color:#FF7F00;border-radius:30px;">
+                <span class="text-light fw-bolder" style="font-size: 110%;">Explore Careers</span>
+            </a>
+        </div>
+    </div>
+     </div>
 
   <!-- desktop -->
   <div
@@ -1051,25 +1058,27 @@
     </div>
   </div>
 
-  <div class="container my-3 p-3 rounded d-flex justify-content-between align-items-center "
-    style="border: 0.2rem solid #0578B1; width: 100vw ; margin: auto;">
-    <h2 style="color: #0578B1;" class="fw-bold fs-6 m-0 d-md-none d-lg-none">
-      Why Wait? Your Smile Deserves the Best Today!
-    </h2>
-    <h2 style="color: #0578B1;" class="fw-bold m-0 fs-4 d-none d-md-block ">
-      Why Wait? Your Smile Deserves the Best Today!
-    </h2>
-    <span style="background-color: #FF7F00; border-radius: 25px;">
-      <a href="#" class="btn text-light fw-bold " data-toggle="modal" data-target="#form">Unlock My Exclusive Offer</a>
-    </span>
-  </div>
+
+  <div class="container p-5">
+    <div class="row  p-2 " style="border-radius: 20px;border:0.1rem solid #0578B1; color: #0578B1;">
+        <div class="col-sm-12 col-md-9 col-lg-9 d-flex justify-content-center align-items-center">
+            <h2 class="heading text-center mb-0 " style="line-height: 1.6rem;">Why Wait? Your Smile Deserves the Best Today!</h2>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 p-3  py-md-1   d-flex justify-content-center align-items-center">
+            <a href="#" data-toggle="modal" data-target="#form" class="btn btn__primary btn__rounded" style="background-color:#FF7F00;border-radius:30px;">
+                <span class="text-light fw-bolder"  style="font-size: 110%;">Unlock My Exclusive Offer  </span>
+            </a>
+        </div>
+    </div>
+     </div>
+     
   <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content" style="background-color: transparent; border:none;">
         <img width="45%" src="download.png" style="margin:auto; z-index:9" loading="lazy" alt="download">
         <div class="modal-header border-bottom-0 bg-white" style="margin-top: -100px;
     padding-top: 100px;">
-          <h5 class="modal-title" id="exampleModalLabel" style="text-align:center;">Book an Appointment</h5>
+          <h5 class="modal-title fw-bolder fs-4" id="exampleModalLabel" style="text-align:center;">Book an Appointment</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -1078,25 +1087,25 @@
           <div class="modal-body">
             <div class="row">
               <div class="form-group col-12">
-                <label for="first-name">Full Name <span class="text-danger">*</span></label>
+                <label for="first-name" class="fw-bolder">Full Name <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="fname" aria-describedby="" name="fullname"
                   placeholder="Enter Full Name" required style="height: 50px !important;">
 
               </div>
               <div class="form-group col-6">
-                <label for="number">Phone Number <span class="text-danger">*</span></label>
+                <label for="number" class="fw-bolder">Phone Number <span class="text-danger">*</span></label>
                 <input type="tel" class="form-control" id="number" aria-describedby="" placeholder="Enter Phone Number"
                   name="mobile" required style="height: 50px !important;">
                 <div id="phone_error" class="error_ hidden">Please enter a valid phone number</div>
               </div>
               <div class="form-group col-6">
-                <label for="email">Email <span class="text-danger">*</span></label>
+                <label for="email" class="fw-bolder">Email <span class="text-danger">*</span></label>
                 <input type="email" class="form-control" id="email" placeholder="Email" name="email" required
                   style="height: 50px !important;">
                 <input type="hidden" name="services" value="-">
               </div>
               <div class="form-group col-12">
-                <label for="postcode">Postal Code<span class="text-danger">*</span></label>
+                <label for="postcode" class="fw-bolder">Postal Code<span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="postcode" placeholder="Postal Code" name="postcode" required
                   style="height: 50px !important;">
                 <input type="hidden" name="services" value="-">
@@ -1116,8 +1125,8 @@
 
 
               </div>
-              <div class="modal-footer border-top-0 d-flex justify-content-center">
-                <button type="submit" class="btn btn-success">Submit</button>
+              <div class="modal-footer border-top-1  m-1" style="justify-content: start;" >
+                <button type="submit" class="btn btn-dark p-3" >Submit</button>
               </div>
             </div>
           </div>
