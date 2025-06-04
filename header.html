@@ -4,75 +4,210 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dental Chain Header</title>
+  <title>Dental Chain Header (Responsive Tree-Structure on Mobile)</title>
+
+  <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Inter Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+
   <style>
+    /*─────────────
+      Base Styles
+    ─────────────*/
     body {
+      margin: 0;
+      padding: 0;
       font-family: 'Inter', sans-serif;
       background-color: #fff;
     }
 
     .outer-wrapper {
       padding: 30px;
-      background-color: #fff; /* Optional, in case body isn't white */
+      background-color: #fff;
     }
 
     .hCont {
-      height: 50vh;
       background-color: #0578B1;
       border-radius: 20px;
       overflow: hidden;
-      display: flex;
-      align-items: center;
+      position: relative;
+      /* On desktop, we want a fixed‐height “hero” area. */
+      height: 60vh;
     }
 
-    .hero-img1{
-      max-height: 300px;
+    /*──────────────
+      DESKTOP LAYER
+      (shown only when ≥768px)
+    ──────────────*/
+    .h-images‐desktop {
+      display: none;
+      /* hide by default; will show at ≥768px via media query */
+      height: 100%;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      position: relative;
+    }
+
+    .h-images‐desktop img {
+      max-height: 280px;
       object-fit: contain;
     }
-    
-    .hero-img2 {
-      max-height: 600px;
-      object-fit: contain;
+
+    .text-overlay‐desktop {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      z-index: 2;
+      width: 100%;
+      padding: 0 20px;
     }
-  
-    @media (max-width: 768px) {
+
+    .text-overlay‐desktop .top-text {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    .text-overlay‐desktop h1 {
+      font-size: 2.6rem;
+      margin: 8px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .text-overlay‐desktop p.lead {
+      font-size: 1.1rem;
+      color: #000;
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 6px;
+    }
+
+
+    /*──────────────
+      MOBILE LAYER
+      (shown only when <768px)
+    ──────────────*/
+    .h-mobile {
+      display: block;
+      /* show by default; will hide at ≥768px */
+      padding: 30px 15px;
+      text-align: center;
+    }
+
+    .h-mobile .top-text {
+      font-size: 1rem;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    .h-mobile h1 {
+      font-size: 1rem;
+      color: #fff;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .h-mobile p.lead {
+      font-size: 1rem;
+      color: #000;
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .images-row‐mobile {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .images-row‐mobile img {
+      max-height: 140px;
+      object-fit: contain;
+      width: 48%;
+    }
+
+
+    /*──────────────
+      MEDIA QUERY (≥768px)
+      – Show desktop layer, hide mobile layer.
+      – Make .hCont fixed-height row with flex.
+    ──────────────*/
+    @media (min-width: 768px) {
       .hCont {
-        height: auto;
-        /* flex-direction: column; */
-        text-align: center;
+        height: 60vh;
+        /* fixed 60% of viewport height */
+        padding: 0;
+        /* no extra padding */
       }
 
-      .hero-img1,
-      .hero-img2 {
-        max-height: 150px;
-        margin-bottom: 20px;
+      .h-images‐desktop {
+        display: flex;
+      }
+
+      .h-mobile {
+        display: none;
       }
     }
   </style>
 </head>
 
 <body>
+  <div class="outer-wrapper">
+    <header class="container-fluid hCont">
+      <!--────────────────────
+        1) DESKTOP LAYER (≥768px)
+      ────────────────────-->
+      <div class="h-images‐desktop w-100">
+        <!-- Left Image -->
+        <img class="hero-img1 img-fluid" src="https://prathameshm101-gif.github.io/html.github.io/image/hero1.png"
+          alt="Left Hero Image" />
 
-<div class="outer-wrapper">
-  <header class="container-fluid hCont">
-    <div class="row w-100 align-items-center justify-content-center">
-      <div class="col-md-1 text-center">
-        <img class="hero-img1 img-fluid mx-auto d-block" src="https://prathameshm101-gif.github.io/html.github.io/image/hero1.png" alt="Left Hero Image">
-      </div>
-      <div class="col-md-10 text-center text-section">
-        <h2 class="fw-normal mb-2 text-light">Know The Visionaries Behind</h2>
-        <h1 class="fw-bolder text-uppercase mb-3 text-light">INDIA’S LEADING DENTAL CHAIN</h1>
-        <p class="lead text-dark">Providing outstanding care and delivering exceptional results to you.</p>
-      </div>
-      <div class="col-md-1 text-center">
-        <img class="hero-img2 img-fluid mx-auto d-block" src="https://prathameshm101-gif.github.io/html.github.io/image/hero2.png" alt="Right Hero Image">
-      </div>
-    </div>
-  </header>
-</div>
+        <!-- Center Text Overlay -->
+        <div class="text-overlay‐desktop">
+          <p class="fw-normal top-text">Know The Visionaries Behind</p>
+          <h1 class="fw-bolder">INDIA'S LEADING DENTAL CHAIN</h1>
+          <p class="lead fw-bolder">
+            Providing outstanding care and delivering exceptional results to you.
+          </p>
+        </div>
 
+        <!-- Right Image -->
+        <img class="hero-img2 img-fluid" src="https://prathameshm101-gif.github.io/html.github.io/image/hero2.png"
+          alt="Right Hero Image" />
+      </div>
+
+      <!--────────────────────
+        2) MOBILE LAYER (<768px)
+      ────────────────────-->
+      <div class="h-mobile w-100">
+        <!-- Text at the top -->
+        <p class="fw-normal top-text">Know The Visionaries Behind</p>
+        <h1 class="fw-bolder">INDIA'S LEADING DENTAL CHAIN</h1>
+        <p class="lead fw-bolder">
+          Providing outstanding care and delivering exceptional results to you.
+        </p>
+
+        <!-- Row with two images, side‐by‐side -->
+        <div class="images-row‐mobile">
+          <img class="hero-img1 img-fluid" src="https://prathameshm101-gif.github.io/html.github.io/image/hero1.png"
+            alt="Left Hero Image" />
+          <img class="hero-img2 img-fluid" src="https://prathameshm101-gif.github.io/html.github.io/image/hero2.png"
+            alt="Right Hero Image" />
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Bootstrap Bundle (Popper + JS) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
