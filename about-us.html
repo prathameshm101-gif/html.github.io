@@ -77,59 +77,68 @@
     }
 </style>
 
-  <style>
-    .text-overlay {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      color: #fff;
-      width: 100%;
-      padding: 0 20px;
+<style>
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .text-overlay .top-text,
+  .text-overlay h1 {
+    display: block;
+    white-space: nowrap;
+  }
+
+  .top-text {
+    font-size: 2.4rem;
+  }
+
+  .text-overlay h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+
+  .text-overlay p {
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 568px) {
+
+    .text-overlay .top-text {
+      display: block;
+      white-space: nowrap;
+      font-size: 130%;
+      letter-spacing: 1px;
     }
 
-    .text-overlay .top-text,
     .text-overlay h1 {
       display: block;
       white-space: nowrap;
+      font-size: 145%;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
-
-    .top-text {
-      font-size: 2.4rem;
-    }
-
-    .text-overlay h1 {
-      font-size: 3rem;
-    }
-
 
     .text-overlay p {
-      display: block;
-      margin: 0 auto;
+      font-size: 90%;
+      max-width: 280px;
     }
 
-    @media (max-width: 768px) {
-
-      .text-overlay .top-text {
-        display: block;
-        white-space: nowrap;
-        font-size: 100%;
-      }
-
-      .text-overlay h1 {
-        display: block;
-        white-space: nowrap;
-        font-size: 110%;
-      }
-
-      .text-overlay p {
-
-        font-size: 80%;
-        max-width: 280px;
-      }
+    .text-overlay {
+      position: absolute;
+      top: 46%;
+      left: 50%;
     }
-  </style>
+  }
+</style>
 
   <style>
     #bg-color {
@@ -316,11 +325,12 @@
 <body>
   <!-- Header Section -->
   <div class="position-relative">
-    <img src="./image/headerabout.png" class="img-fluid rounded-top" alt="about dental clinic" />
+    <img src="./image/headerabout.png" class="img-fluid rounded-top  d-none d-md-block" alt="about dental clinic" />
+    <img src="./image/header2.jpg" class="img-fluid rounded-top d-md-none d-lg-none" alt="about dental clinic" />
     <div class="text-overlay">
       <p class="fw-normal top-text text-light">Know The Visionaries Behind</p>
-      <h1 class="fw-bolder text-uppercase  text-light">INDIA'S LEADING DENTAL CHAIN</h1>
-      <p class="lead fw-bolder text-dark mb-0">Providing outstanding care and delivering exceptional results to you.</p>
+      <h1 class="text-uppercase  text-light">INDIA'S LEADING DENTAL CHAIN</h1>
+      <p class=" text-dark ">Providing outstanding care and delivering exceptional results to you</p>
     </div>
   </div>
 

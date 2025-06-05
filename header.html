@@ -33,8 +33,7 @@
       border-radius: 20px;
       overflow: hidden;
       position: relative;
-      /* On desktop, we want a fixed‐height “hero” area. */
-      height: 60vh;
+      height: 40vh;
     }
 
     /*──────────────
@@ -47,7 +46,6 @@
       height: 100%;
       align-items: center;
       justify-content: space-between;
-      padding: 0 40px;
       position: relative;
     }
 
@@ -65,7 +63,6 @@
       color: #fff;
       z-index: 2;
       width: 100%;
-      padding: 0 20px;
     }
 
     .text-overlay‐desktop .top-text {
@@ -84,7 +81,6 @@
       font-size: 1.1rem;
       color: #000;
       display: inline-block;
-      padding: 6px 12px;
       border-radius: 6px;
     }
 
@@ -95,8 +91,6 @@
     ──────────────*/
     .h-mobile {
       display: block;
-      /* show by default; will hide at ≥768px */
-      padding: 30px 15px;
       text-align: center;
     }
 
@@ -107,45 +101,42 @@
     }
 
     .h-mobile h1 {
-      font-size: 1rem;
+      font-size: 1.19rem;
       color: #fff;
       margin-bottom: 6px;
       text-transform: uppercase;
       letter-spacing: 1px;
+      font-weight: 900;
     }
 
-    .h-mobile p.lead {
+    .h-mobile p {
       font-size: 1rem;
-      color: #000;
+      color: #191818;
       display: inline-block;
       padding: 5px 10px;
       border-radius: 5px;
       margin-bottom: 20px;
+      font-weight: 300;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
 
     .images-row‐mobile {
       display: flex;
       justify-content: space-between;
-      gap: 10px;
     }
 
     .images-row‐mobile img {
-      max-height: 140px;
+      max-height: 12rem;
       object-fit: contain;
     }
 
 
-    /*──────────────
-      MEDIA QUERY (≥768px)
-      – Show desktop layer, hide mobile layer.
-      – Make .hCont fixed-height row with flex.
-    ──────────────*/
+
     @media (min-width: 768px) {
       .hCont {
-        height: 40vh;
-        /* fixed 60% of viewport height */
+        height: 50vh;
         padding: 0;
-        /* no extra padding */
       }
 
       .h-images‐desktop {
@@ -190,8 +181,8 @@
       <div class="h-mobile w-100">
         <!-- Text at the top -->
         <p class="fw-normal top-text">Know The Visionaries Behind</p>
-        <h1 class="fw-bolder">INDIA'S LEADING DENTAL CHAIN</h1>
-        <p class="lead fw-bolder">
+        <h1 >INDIA'S LEADING DENTAL CHAIN</h1>
+        <p class="lead ">
           Providing outstanding care and delivering exceptional results to you.
         </p>
 
