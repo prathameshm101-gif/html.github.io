@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+  <title>About Orthosquare India’s Trusted Best Dental Clinic</title>
+  <meta name="title" content="About Orthosquare India’s Trusted Best Dental Clinic">
+  <meta name="description"
+        content="Discover Orthosquare's mission towards an advanced and complete dental care with the best dentist across 100+ clinics in India">
+      <meta name="keywords" content="dr Kunal Shet , dr Riddhi Rathi Shet , orthosquare dentist , orthosquare doctor, orthosquare dental specialist , 
+    orthosquare doctor team , orthosquare owner , orthosquare founder , dental clinic team , about dental clinic , best dentist , best dentist in india , indian dentist ,
+ top rated dentist near me , top dentist near me , dentist contact number , mds dentist near me ">
+  <meta name="robots" content="index, follow">
+    <!--add by adi-->
+    <meta property="og:title" content=Orthosquare multispecialty dental chain best dentist in india>
+    <meta property="og:site_name" content=Orthosquare>
+    <meta property="og:url" content=https://www.orthosquare.com />
+    <meta property="og:description" content=Orthosquare presents noteworthy dental care, offering world-class dental
+        treatment at the best price. Our best dentist in India are ready to enhance your smile.>
+    <meta property="og:type" content=website>
+    <meta property="og:image" content=https://www.orthosquare.com/assets/images/ortho-new-logo.png>
+
+    <!--asim sir provided links-->
+
+    <link rel="alternate" hreflang="x-default" href="https://www.orthosquare.com/about-us"/>
+<link rel="alternate" hreflang="mr-in" href=""  />
+<link rel="alternate" hreflang="hi-in" href=""  />
+<link rel="alternate" hreflang="en-nz" href=""  />
+
+
+    <meta name="google-site-verification" content="s6eAdgN0m7PFSa7117Iau7cPniuOGdHkxrgkEZbpXbI" />
+  <!-- Canonical URL -->
+  <link rel="canonical" hreflang="en-in" href="https://www.orthosquare.com/about-us">
+
+ <!-- Favicon -->
+   <link rel="icon" hreflang="x-default" href="https://www.orthosquare.com/assets/images/ortho-new-logo.png" type="image/x-icon">
+
+
+  <!-- Bootstrap CSS -->
+  <link hreflang="en-nz" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"  rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Orthosquare multispecialty dental clinic",
+  "image": "https://www.orthosquare.com/assets/images/logo/ortho-logo-190.webp",
+  "@id": "",
+  "url": "https://www.orthosquare.com/about-us",
+  "telephone": "9167195818",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Shop no. 2, Amrut Elegance, Near SBI Bank, Nehru Road, Vile Parle (east)",
+    "addressLocality": "Mumbai",
+    "postalCode": "400057",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 19.0968238,
+    "longitude": 72.8515331
+  } ,
+  "sameAs": [
+    "https://www.facebook.com/Orthosquare",
+    "https://www.instagram.com/orthosquaredental/",
+    "https://www.youtube.com/@orthosquare/",
+    "https://in.linkedin.com/company/orthosquare",
+    "https://www.orthosquare.com"
+  ] 
+}
+</script>
+<style>
+  * {
+      font-family: 'Poppins', sans-serif;
+    }
+</style>
+
+<style>
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .text-overlay .top-text,
+    .text-overlay h1 {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .top-text {
+      font-size: 2.4rem;
+    }
+
+    .text-overlay h1 {
+      font-size: 3rem;
+      font-weight: 900;
+    }
+
+
+    .text-overlay p {
+      display: block;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 768px) {
+
+      .text-overlay .top-text {
+        display: block;
+        white-space: nowrap;
+        font-size: 130%;
+        letter-spacing: 1px;
+      }
+
+      .text-overlay h1 {
+        display: block;
+        white-space: nowrap;
+        font-size: 140%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .text-overlay p {
+        font-size: 90%;
+        max-width: 280px;
+      }
+
+      .text-overlay {
+        position: absolute;
+        top: 46%;
+        left: 50%;
+      }
+     
+    }
+    
+
+
+    
+    /* 4K or ultra-wide monitors) */
+    @media (min-width: 1500px) {
+      .text-overlay .top-text {
+        display: block;
+        white-space: nowrap;
+        font-size: 364%;
+        letter-spacing: 1px;
+      }
+
+      .text-overlay h1 {
+        display: block;
+        white-space: nowrap;
+        font-size: 420%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .text-overlay p {
+        font-size: 200%;
+        max-width: 1200px;
+      }
+    }    
+  </style>
+
+  <style>
+    #bg-color {
+      background-color: #FF7F00;
+    }
+
+    .btn span {
+      font-weight: 600;
+    }
+
+
+    .rounded-circle svg {
+      margin: auto;
+    }
+
+    .profile-buttons .btn {
+      font-weight: bold;
+      margin: 5px;
+      background-color: #FF7F00;
+      color: white;
+      border-radius: 25px;
+    }
+
+    .grid-cell {
+      width: 250px;
+      height: 250px;
+      overflow: hidden;
+    }
+
+    .text-cell {
+      background-color: #0578B1;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .img-cell img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* center the entire grid and remove gutters */
+    .no-gutters {
+      --bs-gutter-x: 0;
+      --bs-gutter-y: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .full-vh {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .director-header {
+      flex: 0 0 auto;
+      padding: 1rem 0;
+    }
+  </style>
+  <style>
+    #twoCardCarousel {
+      flex: 1 1 auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .carousel-inner,
+    .carousel-item {
+      height: 100%;
+    }
+
+    .carousel-item .row {
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .crousel-card {
+      overflow: hidden;
+      cursor: pointer;
+      width: 100%;
+      max-width: 300px;
+       margin: 0 auto; 
+      /* Center it */
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 0.5rem;
+      transition: transform 0.3s ease;
+    }
+
+
+    .crousel-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .img-container {
+      position: relative;
+      overflow: hidden;
+      margin: 5px;
+      border-radius: 3%;
+    }
+
+    .img-container img {
+      display: block;
+      object-fit: cover;
+      max-height: 60vh;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .img-container .overlay {
+        user-select: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(5, 120, 177, 1));
+      color: #fff;
+      display: flex;
+      align-items: left;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      padding: 1rem;
+      text-align: left;
+    }
+
+    .img-container:hover .overlay {
+      opacity: 1;
+    }
+  </style>
+  <style>
+    .no-scroll-container {
+      overflow-x: hidden;
+    }
+
+    .square-grid-cell {
+      aspect-ratio: 1 / 1;
+    }
+
+    .square-img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .square-text-box {
+      background-color: #0578B1;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+
+    /* Limit width to 600px on screens ≥768px (tablet and larger) */
+    @media (min-width: 768px) {
+      .no-scroll-container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    }
+    
+    @media (max-width: 550px) {
+      .square-text-box {
+        font-size: 0.9rem;
+        font-weight: 900;
+      };
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <div class="position-relative">
+    <img src="assets/images/about/headerabout.png" class="img-fluid rounded-top  d-none d-md-block" alt="about dental clinic" />
+    <img src="assets/images/about/mobile.jpg" class="img-fluid rounded-top d-md-none d-lg-none" alt="about dental clinic" />
+    <div class="text-overlay">
+      <p class="fw-normal top-text text-light">Know The Visionaries Behind</p>
+      <h1 class="text-uppercase  ">INDIA'S LEADING DENTAL CHAIN</h1>
+      <p class=" text-dark ">Providing outstanding care and delivering exceptional results to you</p>
+    </div>
+  </div>
+
+<!--<img class="my-3" src="assets/images/about/header2" alt="orthosquare dental implants" loading="lazy">-->
+<div class="container-fluid">
+    <h2 class="text-center my-4"
+      style="font-size: clamp(21px, 6vw, 50px); letter-spacing: 2px; color: #0578B1; word-wrap: break-word;font-weight: 900 !important;">
+      OUR VISIONARY LEADERS</h2>
+  </div>
+  <!-- dr kunal -->
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left: Doctor Info Card -->
+      <div class="col-md-5 mb-4">
+        <div class=" border-0">
+          <!-- Foreground doctor image -->
+          <img src="assets/images/about/kunal.png" class="img-fluid position-relative d-block mx-auto kunal" style="z-index: 1;"
+            alt="orthosquare owner">
+          
+          <style>
+            .kunal {
+              height: auto;
+            }
+
+            @media (max-width: 450px) {
+              .kunal {
+                height: 400px;
+              }
+            }
+          </style>
+          <div class=" rounded mt-2 fluid text-center " style="border: 2px solid #FF7F00;">
+            <div class="my-3">
+            <h2 class="fs-2" style="font-weight: 700;color: #3A3A3A;letter-spacing:-2px ;">Dr. Kunal Shet</h2>
+            <p style="font-weight: 600; color: #484545; margin: 0 auto; max-width: 80%;font-size: 0.8rem;margin-bottom:10px ;">
+              BDS, MDS, Orthodontics & Dentofacial Orthopedics,
+              Implantologist (Masters in Cortical Implantology)
+            </p>
+            <div class="d-flex justify-content-center">
+                <a href="https://www.facebook.com/Orthosquare" 
+                class="rounded-circle text-light " style="margin: 1px;">
+                  <img src="assets/images/about/facebook.svg" alt="facebook" width="30" height="30">
+                </a>
+                <a href="https://www.instagram.com/kunal.shet?igsh=NW5rZHp5eGE0d3kx" 
+                class=" rounded-circle text-light" style="margin: 2px;">
+                  <img src="assets/images/about/insta.svg" alt="facebook" width="30" height="30">
+                </a>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://in.linkedin.com/company/orthosquareonline&ved=2ahUKEwiKutm3oNKNAxWnwTgGHYw_BwYQFnoECAsQAQ&usg=AOvVaw0fF4KbBHrGXKBDrHQgw913" 
+                class=" rounded-circle text-light " style="margin: 2px;">
+                  <img src="assets/images/about/lin.svg" alt="facebook" width="30" height="30">
+                </a>
+                <a href="https://youtube.com/@orthosquare?feature=shared" 
+                class=" rounded-circle text-light " style="margin: 2px;">
+                  <img src="assets/images/about/yt.svg" alt="facebook" width="30" height="30">
+                </a>
+            </div>
+          </div>
+          </div>
+          
+          <div class="text-center profile-buttons mt-2">
+           <a href="#" class="btn" data-toggle="modal" data-target="#form">Consult With Dr. Kunal</a>
+            <a href="https://www.orthosquare.com/best-implantologist-in-india/" target="_blank" class="btn">Discover His Portfolio</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Bio Text -->
+      <div class="col-md-7">
+        <p class="text-secondary" style="font-size: 1rem; line-height: 1.6rem;">
+          Dr. Kunal Shet brings warmth, skill, and a visionary approach to modern dentistry. He is the name one can rely
+          on for the brightest smiles nationwide. After earning his BDS in 2008, Dr. Shet pursued his further
+          with a postgrad in Orthodontics and Dentofacial Orthopedics in 2012. He later became a certified
+          Implantologist and gained a Master’s in Cortical Implantology from Italy.
+        </p>
+        <h2 class="text-dark fw-bold fs-5" style="font-size: 20px;">Know Your Doctor:</h2>
+        <ul class="list-unstyled text-secondary" style="font-size: 16px; line-height: 29px;">
+          <li class="mb-2">✤ Founder of Orthosquare Dental Clinic, recognized as the best Corporate Dental Chain of the Year and
+            Nobel Biocare’s "All on Four Centre of Excellence" for 6 consecutive years.</li>
+          <li class="mb-2">✤ Internationally trained Implantologist certified by Nobel Biocare, Osstem, Straumann, Dentium, and Idhe
+            GenXt, Advanced Dental Implants course from the American Association of Implant Dentistry.</li>
+          <li class="mb-2">✤ Lingual Braces and Clear Aligners specialist, acclaimed Invisalign Provider, and a Keynote Panelist &
+            Advisor with Flexismile Clear Aligners.</li>
+          <li class="mb-2">✤ Awarded as “Dental Implantologist of the Year” (Highly Commended) 2016, 2020, “Outstanding Dentist of
+            the Year Junior” (Jury Recommended) 2016, </li>
+          <li class="mb-2">✤ “Young Dental Achiever” 2017, and “Iconic Inspirational Woman of Navbharat in dental care and many more.
+          </li>
+          <li class="mb-2">✤ Consecutive 3 years in a row awarded with Nobel Biocare Excellence Award (2023, 2024, 2025).</li>
+          <li class="mb-2">✤ Trained 10,000+ dentist in basic and advanced aligner treatment protocols.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- dr Riddhi -->
+  <div class="container "
+  style="margin-bottom: 3%;margin-top: 2%;"
+  >
+    <div class="row align-items-center d-flex flex-column-reverse flex-sm-row">
+
+      <!-- Right: Bio Text -->
+      <div class="col-md-7">
+        <p class="text-secondary" style="font-size: 1rem; line-height: 1.6rem;">
+          Dr. Riddhi Rathi Shet is a distinguished dental expert with 18 years of experience, renowned for her
+          precision, innovation, and commitment to excellence.
+          
+            Throughout her career, she has set new benchmarks in orthodontics and implantology, combining artistry <span id="more-li" style="display: none;"> with
+            advanced dental science to create transformative results.
+           
+            She holds a Bachelor of Dental Surgery (BDS) and a
+            Master of Dental Surgery (MDS) in Orthodontics & Dentofacial Orthopedics, along with specialized training in
+            implantology. Her credentials include a Masters in Cortical and Immediate Loading Implantology from Italy
+            and a Masters in Advanced Implantology from Smile USA, solidifying her expertise in cutting-edge dental
+            treatments. Having served as the head of Dental Department of Nanavati Max Hospital, she’s incorporated
+            cutting-edge dental treatments for complicated cases for patients with diabetes, heart condition,
+            comorbidity, or those who have lost their jaws due to accidents, cancer, or mucormycosis.
+          </span>
+          <span onclick="toggleMore()" style="color: orange; text-decoration: underline; cursor: pointer;"
+            id="toggle-btn">
+            View More
+          </span>
+        </p>
+
+        <script>
+          function toggleMore() {
+            const moreLi = document.getElementById('more-li');
+            const btn = document.getElementById('toggle-btn');
+            const isHidden = moreLi.style.display === 'none';
+            moreLi.style.display = isHidden ? 'inline' : 'none';
+            btn.textContent = isHidden ? 'View Less' : 'View More';
+          }
+        </script>
+
+        <h2 class="text-dark fw-bold fs-5" style="font-size: 20px;">Know Your Doctor:</h2>
+        <ul class="list-unstyled text-secondary" style="font-size: 16px; line-height: 29px;">
+          <li class="mb-2">✤ Visionary orthodontist and implantologist with expertise in immediate and delayed loading implants.</li>
+          <li class="mb-2">✤ BDS (2008), PG in Orthodontics (2012), and Master's in Cortical Implantology (Italy).</li>
+          <li class="mb-2">✤ Founder of Orthosquare – India's second-largest dental chain with 125+ clinics.</li>
+          <li class="mb-2">✤ Performed over 80,000 successful implants with unmatched precision and care.</li>
+          <li class="mb-2">✤ Led Orthosquare to win Nobel Biocare’s “All on Four Centre of Excellence”.</li>
+          <li class="mb-2">✤ Former Head of Dental at Nanavati Hospital.</li>
+          <li class="mb-2">✤ Mentor to hundreds of dentists alongside Dr. Riddhi Rathi Shet.</li>
+        </ul>
+      </div>
+
+      <!-- Left: Doctor Info Card -->
+      <div class="col-md-5 mb-4">
+        <div class=" border-0">
+          <!-- Foreground doctor image -->
+          <img src="assets/images/about/Group 136.png" class="img-fluid position-relative d-block mx-auto " style="z-index: 1; "
+            alt="orthosquare founder">
+          <div class=" rounded mt-2 fluid text-center" style="border: 2px solid #FF7F00;">
+            <div class="my-3">
+            <h2 class="fs-2" style="font-weight: 700;color: #3A3A3A;letter-spacing:-2px ;">Dr. Riddhi Rathi Shet</h2>
+            <p style="font-weight: 600; color: #484545; margin: 0 auto; max-width: 80%;font-size: 0.8rem;margin-bottom:10px ;">
+              BDS, MDS in Orthodontics & Dentofacial Orthopedics,
+              Masters in Cortical and Immediate Loading Implantologist (Italy), Masters in Advanced Implantology (Smile
+              USA)
+            </p>
+            <div class="d-flex justify-content-center">
+              <a href="https://www.facebook.com/Orthosquare" 
+                class="rounded-circle text-light " style="margin: 1px;">
+                  <img src="assets/images/about/facebook.svg" alt="facebook" width="30" height="30">
+                </a>
+                <a href="https://www.instagram.com/riddhirathi.dr?igsh=aDE2NWx1MWVyazVz" 
+                class="rounded-circle text-light " style="margin: 2px;">
+                  <img src="assets/images/about/insta.svg" alt="facebook" width="30" height="30">
+                </a>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://in.linkedin.com/company/orthosquareonline&ved=2ahUKEwiKutm3oNKNAxWnwTgGHYw_BwYQFnoECAsQAQ&usg=AOvVaw0fF4KbBHrGXKBDrHQgw913" 
+                class="rounded-circle text-light " style="margin: 2px;">
+                  <img src="assets/images/about/lin.svg" alt="facebook" width="30" height="30">
+                </a>
+                <a href="https://youtube.com/@orthosquare?feature=shared" 
+                class="rounded-circle text-light " style="margin: 2px;">
+                  <img src="assets/images/about/yt.svg" alt="facebook" width="30" height="30">
+                </a>
+            </div>
+          </div>
+          </div>
+          <div class="text-center profile-buttons mt-2">
+            <a href="#" class="btn" data-toggle="modal" data-target="#form">Schedule Appointment With Dr. Riddhi</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <div class="container px-5 pt-4 ">
+    <div class="row  p-3 " style="border-radius: 20px;border:0.01rem solid #0578B1; color: #0578B1;">
+      <div class="col-sm-12 col-md-9 col-lg-8 d-flex justify-content-center align-items-center ">
+        <h2 class="heading text-center mb-0 " style="font-weight: 700; font-size: 1.5rem; ">Proudly Setting New Standards in Dental Excellence!
+        </h2>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-4 p-3  py-md-1   d-flex justify-content-center align-items-center">
+        <a href="#" data-toggle="modal" data-target="#form" class="btn btn__primary btn__rounded"
+          style="background-color:#FF7F00;border-radius:30px;">
+          <span class="text-light fw-bolder text-fixed p-4">View Our Achievements</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+ <!-- desktop -->
+  <div
+    class="director-heade text-center  p-3 d-flex flex-column align-items-center justify-content-center d-none d-md-block">
+    <h2 style="color: #0578B1; letter-spacing: 0.25em;line-height: 1.4; font-weight: 800;margin-top:2rem;" class="fs-1">Our Directors</h2>
+    <p class="col-9 text-center mx-auto my-0 sub-text " style="color: #3A3A3A;">Our administration and support staff have exceptional skills and are
+      trained to assist you with all medical
+      inquiries. We take pride in being associated with the best dentist in India.</p>
+  </div>
+  <!-- mobile -->
+  <div
+    class="director-heade text-center d-flex flex-column align-items-center justify-content-center d-md-none d-lg-none">
+    <h2 style="color: #0578B1; letter-spacing: 0.25em;line-height: 1.4; font-weight: 800;margin-top:2rem;" class="fs-1">Our Directors </h2>
+    <p class="col-11 fs-6 text-center m-0 sub-text " style="color: #3A3A3A; font-weight: 500;">
+    Our administration and support staff have exceptional skills and are trained to assist you 
+    with all medical inquiries. We take pride in being associated with the best dentist in India.
+    </p>
+  </div>
+
+  <div id="twoCardCarousel"
+  style="margin-top: 5%;margin-bottom: 5%;"
+  class="carousel slide  d-none d-md-block" data-bs-ride="carousel"  data-bs-interval="3000"  data-bs-wrap="true">
+    <div class="carousel-inner">
+       <!--Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row g-4">
+
+          <div class="col-auto mt-0">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/sayali.jpg" alt="orthosquare dentist">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Certified Implantologist and Esthetic Dentist with 11 years of experience.</li>
+                    <li>Specializes in Implants, Veneers, Cosmetic Restoration, and Smile Designing.</li>
+                    <li> Known for providing comfortable and personalized dental care for all ages.</li>
+                    <li> Dedicated to improving patients oral health through modern, innovative treatments.</li>
+                    <li> Passionate about building lasting relationships through compassionate dental care.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 style="color: #0578B1;" class="fs-5 fw-bold">Dr. Sayali Jadhav</h2>
+                <p class="text-wrap">BDS,Fellowship in esthetic dentistry and Certified Implantologist</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-auto mt-0">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/nilay.jpg" alt="orthosquare doctor">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Specializes in crafting customized smiles with advanced techniques.</li>
+                    <li> Experienced in full mouth rehabilitation for functional and aesthetic outcomes.</li>
+                    <li> Known for providing comfortable and personalized dental care for all ages.</li>
+                    <li> Dedicated to improving patients oral health through modern, innovative treatments.</li>
+                    <li> Passionate about building lasting relationships through compassionate dental care.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Nilay Vakharia </h2>
+                <p class="text-wrap">BDS, MDS (Oral & Maxillofacial Surgery) Implantologist.</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-auto mt-0">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/apurva.jpg" alt="orthosquare doctor team">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Specialized expertise in oral & maxillofacial surgery</li>
+                    <li>Expertise in minor as well as major oral surgical procedures</li>
+                    <li>Trained & Certified Implantologist and FMR specialist.</li>
+                    <li>Successfully placed more than 3000 implants.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 style="color: #0578B1;" class="fs-5 fw-bold">Dr. Apurva Vaidya </h2>
+                <p class="text-wrap">BDS, MDS (Oral and maxillofacial surgery) Implantologist</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+       <!--Slide 2 -->
+      <div class="carousel-item ">
+        <div class="row g-4">
+
+          <div class="col-auto mt-0">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/isha.jpg" alt="orthosquare dental specialist">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Specializes in crafting customized smiles with advanced techniques.</li>
+                    <li>Experienced in full mouth rehabilitation for functional and aesthetic outcomes.</li>
+                    <li>Known for providing comfortable and personalized dental care for all ages.</li>
+                    <li>Dedicated to improving patients’ oral health through modern, innovative treatments.</li>
+                    <li>Passionate about building lasting relationships through compassionate dental care.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Isha Jain</h2>
+                <p>BDS</br>
+                  &nbsp;</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-auto mt-0">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/madhu.jpg" alt="orthosquare doctor">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Expertise in Clinical and Public dentistry</li>
+                    <li>Specialized in Full Mouth Rehabilitation (FMR), Smile Designing, Root Canal, Crowns, etc.</li>
+                    <li>Completed Masters in Public Health from Bhopal University.</li>
+                    <li>Maintains high standards of care and ethics showing empathy and understanding towards patient's
+                      concerns and fear.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Madhuri Pawar </h2>
+                <p>BDS, MPH</br>
+                  &nbsp;</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-auto mt-0">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/ruchi.jpg" alt="orthosquare doctor team">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Certified Implantologist with expertise in Botox, Fillers, Aesthetics, Aligners, Full Mouth
+                      Rehabilitation and Gums.</li>
+                    <li>Provides a wide range of dental services from routine checkups to advanced treatments.</li>
+                    <li>Focuses on personalized, patient-centered dental care in a welcoming clinic.</li>
+                    <li>Collaborates with a team to create customized treatment plans for optimal results.</li>
+                    <li>Known for combining compassion with clinical excellence in every procedure.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Ruchi Bhansali</h2>
+                <p>BDS, Implantology</br>
+                  &nbsp;</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!--Slide 3 -->
+      <div class="carousel-item ">
+        <div class="row g-4">
+
+          <div class="col-auto mt-0">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/divya.jpg" alt="orthosquare doctor">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Over 12 years of clinical experience in aesthetic dentistry.</li>
+                    <li>Expert in designing beautiful smiles with dental veneers.</li>
+                    <li>Successfully planned and executed 2000+ Aligners (Invisible Braces).</li>
+                    <li>Trained in Digital Dentistry for advanced smile rehabilitations.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Divya Navsariwala lyer </h2>
+                <p>BDS, Specialist in Cosmetic Dentistry & Smile Designing</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-auto mt-0">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/akhil.jpg" alt="orthosquare dentist">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Certified Implantologist specializing in Full Mouth Rehabilitation and Smile Designing.</li>
+                    <li>Expertise in Invisible Aligners, combining precision and aesthetics.</li>
+                    <li>Expertise in Invisible Aligners, combining precision and aesthetics.</li>
+                    <li>Passionate about providing both functional and aesthetic dental solutions.</li>
+                    <li>Known for delivering high-quality, patient-focused dental treatments across regions while
+                      successfully placing over 5,000 implants.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Akhil Nair</h2>
+                <p>BDS, Oral Implantologist</br>
+                  &nbsp;</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-auto mt-0">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/akash.jpg" alt="orthosquare doctor">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Second-generation dentist with a strong dental legacy.</li>
+                    <li>B.D.S (2015) and M.D.S (2017) from Pravara Institute of Medical Sciences.</li>
+                    <li>Full Mouth Rehabilitation Specialist with 2000+ implant placements.</li>
+                    <li>Expert in Flap, soft tissue, and laser surgeries.</li>
+                    <li>Trained Gum & Bone Surgeon with advanced implantology skills.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Akash Balaji Iyer </h2>
+                <p>BDS, MDS Periodontology and Oral Implantology </p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="twoCardCarousel" 
+  class=" mt-5 carousel slide d-md-none d-lg-none col-12" data-bs-ride="carousel"
+  
+    data-bs-interval="2500" data-bs-wrap="true">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-10">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/sayali.jpg" alt="orthosquare dentist" class="img-fluid w-100 d-block mx-auto">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Certified Implantologist and Esthetic Dentist with 11 years of experience.</li>
+                    <li>Specializes in Implants, Veneers, Cosmetic Restoration, and Smile Designing.</li>
+                    <li> Known for providing comfortable and personalized dental care for all ages.</li>
+                    <li> Dedicated to improving patients oral health through modern, innovative treatments.</li>
+                    <li> Passionate about building lasting relationships through compassionate dental care.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 style="color: #0578B1;" class="fs-5 fw-bold">Dr. Sayali Jadhav</h2>
+                <p>BDS, Fellowship in esthetic dentistry and Occlusion Certified Implantologist</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-10">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/nilay.jpg" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Specializes in crafting customized smiles with advanced techniques.</li>
+                    <li> Experienced in full mouth rehabilitation for functional and aesthetic outcomes.</li>
+                    <li> Known for providing comfortable and personalized dental care for all ages.</li>
+                    <li> Dedicated to improving patients oral health through modern, innovative treatments.</li>
+                    <li> Passionate about building lasting relationships through compassionate dental care.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Nilay Vakharia </h2>
+                <p>BDS, MDS (Oral & Maxillofacial Surgery) Implantologist.</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item ">
+        <div class="row">
+          <div class="col-10">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/apurva.jpg" alt="orthosquare doctor team" class="img-fluid w-100 d-block mx-auto">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Specialized expertise in oral & maxillofacial surgery</li>
+                    <li>Expertise in minor as well as major oral surgical procedures</li>
+                    <li>Trained & Certified Implantologist and FMR specialist.</li>
+                    <li>Successfully placed more than 3000 implants.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 style="color: #0578B1;" class="fs-5 fw-bold">Dr. Apurva Vaidya </h2>
+                <p>BDS, MDS (Oral and maxillofacial surgery) Implantologist</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-item ">
+        <div class="row">
+          <div class="col-10">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/isha.jpg" alt="orthosquare dental specialist" class="img-fluid w-100 d-block mx-auto">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Specializes in crafting customized smiles with advanced techniques.</li>
+                    <li>Experienced in full mouth rehabilitation for functional and aesthetic outcomes.</li>
+                    <li>Known for providing comfortable and personalized dental care for all ages.</li>
+                    <li>Dedicated to improving patients’ oral health through modern, innovative treatments.</li>
+                    <li>Passionate about building lasting relationships through compassionate dental care.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Isha Jain</h2>
+                <p>BDS</br>
+                  &nbsp;</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="carousel-item ">
+        <div class="row ">
+          <div class="col-10">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/madhu.jpg" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Expertise in Clinical and Public dentistry</li>
+                    <li>Specialized in Full Mouth Rehabilitation (FMR), Smile Designing, Root Canal, Crowns, etc.</li>
+                    <li>Completed Masters in Public Health from Bhopal University.</li>
+                    <li>Maintains high standards of care and ethics showing empathy and understanding towards patient's
+                      concerns and fear.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Madhuri Pawar </h2>
+                <p>BDS, MPH</br>
+                  &nbsp;</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="carousel-item ">
+        <div class="row ">
+          <div class="col-10">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/ruchi.jpg" alt="orthosquare doctor team" class="img-fluid w-100 d-block mx-auto">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Certified Implantologist with expertise in Botox, Fillers, Aesthetics, Aligners, Full Mouth
+                      Rehabilitation and Gums.</li>
+                    <li>Provides a wide range of dental services from routine checkups to advanced treatments.</li>
+                    <li>Focuses on personalized, patient-centered dental care in a welcoming clinic.</li>
+                    <li>Collaborates with a team to create customized treatment plans for optimal results.</li>
+                    <li>Known for combining compassion with clinical excellence in every procedure.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Ruchi Bhansali</h2>
+                <p>BDS, Implantology</br>
+                  &nbsp;</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 7 -->
+      <div class="carousel-item ">
+        <div class="row ">
+          <div class="col-10">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/divya.jpg" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Over 12 years of clinical experience in aesthetic dentistry.</li>
+                    <li>Expert in designing beautiful smiles with dental veneers.</li>
+                    <li>Successfully planned and executed 2000+ Aligners (Invisible Braces).</li>
+                    <li>Trained in Digital Dentistry for advanced smile rehabilitations.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Divya Navsariwala lyer </h2>
+                <p>BDS, Specialist in Cosmetic Dentistry & Smile Designing</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- Slide 8 -->
+      <div class="carousel-item ">
+        <div class="row ">
+          <div class="col-10">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/akhil.jpg" alt="orthosquare dentist" class="img-fluid w-100 d-block mx-auto">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Certified Implantologist specializing in Full Mouth Rehabilitation and Smile Designing.</li>
+                    <li>Expertise in Invisible Aligners, combining precision and aesthetics.</li>
+                    <li>Expertise in Invisible Aligners, combining precision and aesthetics.</li>
+                    <li>Passionate about providing both functional and aesthetic dental solutions.</li>
+                    <li>Known for delivering high-quality, patient-focused dental treatments across regions while
+                      successfully placing over 5,000 implants.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Akhil Nair</h2>
+                 <p>BDS, Oral Implantologist</br>
+                    &nbsp;</p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     
+      <!-- Slide 9 -->
+      <div class="carousel-item ">
+        <div class="row ">
+          <div class="col-10">
+            <div class="card crousel-card">
+              <div class="img-container">
+                <img src="assets/images/about/akash.jpg" alt="orthosquare doctor" class="img-fluid w-100 d-block mx-auto">
+                <div class="overlay">
+                  <ul style="font-size: 0.8rem; position: absolute; bottom: 0px;" class="fw-bold ">
+                    <li>Second-generation dentist with a strong dental legacy.</li>
+                    <li>B.D.S (2015) and M.D.S (2017) from Pravara Institute of Medical Sciences.</li>
+                    <li>Full Mouth Rehabilitation Specialist with 2000+ implant placements.</li>
+                    <li>Expert in Flap, soft tissue, and laser surgeries.</li>
+                    <li>Trained Gum & Bone Surgeon with advanced implantology skills.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body  p-2">
+                <h3 class="fs-5 fw-bold" style="color: #0578B1;">Dr. Akash Balaji Iyer </h2>
+                <p>BDS, MDS Periodontology and Oral Implantology </p>
+                <h4 class="fs-6 fw-bold">Director at Orthosquare</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+<div class="container px-5 ">
+    <div class="row  p-3 " style="border-radius: 20px;border:0.01rem solid #0578B1; color: #0578B1;margin-top:3rem;">
+      <div class="col-sm-12 col-md-9 col-lg-8 d-flex justify-content-center align-items-center ">
+        <h2 class="heading text-center mb-0 " style="font-weight: 700; ">Join the Team at Orthosquare & Shape Smiles!
+        </h2>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-4 p-3  py-md-1   d-flex justify-content-center align-items-center">
+        <a href="#" data-toggle="modal" data-target="#form" class="btn btn__primary btn__rounded"
+          style="background-color:#FF7F00;border-radius:30px;">
+          <span class="text-light fw-bolder text-fixed p-4">Explore Careers</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class=" text-center my-5 d-none d-md-block" style="margin: 5% auto;">
+    <h2 style="color: #0578B1; letter-spacing: 0.25em;line-height: 1.4; font-weight: 800;" class="fs-1">Our smile squad in action!
+    </h2>
+  </div>
+
+  <div class="container text-center my-5 d-md-none d-lg-none" style="margin: 5% 0px;">
+    <h2 class="fw-bold fs-1" style="font-size: clip(20px,2rem,50px); color: #0578B1; letter-spacing: 0.25em;line-height: 1.4; font-weight: 800;">Our smile
+      squad
+      in action!</h2>
+  </div>
+
+  <!-- 3x3 -->
+  <div class="container-fluid no-scroll-container  px-1 my-4">
+    <div class="row g-0">
+      <div class="col-4 square-grid-cell square-text-box">WE</div>
+      <div class="col-4 square-grid-cell p-0">
+        <img src="assets/images/about/g1.jpg" alt="dental clinic team" class="square-img">
+      </div>
+      <div class="col-4 square-grid-cell p-0">
+        <img src="assets/images/about/g2.jpg" alt="dental clinic team" class="square-img">
+      </div>
+
+      <div class="col-4 square-grid-cell p-0">
+        <img src="assets/images/about/g3.jpg" alt="dental clinic team" class="square-img">
+      </div>
+      <div class="col-4 square-grid-cell square-text-box">ARE</div>
+      <div class="col-4 square-grid-cell p-0">
+        <img src="assets/images/about/g4.jpg" alt="dental clinic team" class="square-img">
+      </div>
+
+      <div class="col-4 square-grid-cell p-0">
+        <img src="assets/images/about/g5.jpg" alt="dental clinic team" class="square-img">
+      </div>
+      <div class="col-4 square-grid-cell p-0">
+        <img src="assets/images/about/g6.jpg" alt="dental clinic team" class="square-img">
+      </div>
+      <div class="col-4 square-grid-cell square-text-box">ORTHOSQUARE</div>
+    </div>
+  </div>
+
+<div class="container p-5 mt-5 pt-2">
+    <div class="row  p-3 " style="border-radius: 20px;border:0.01rem solid #0578B1; color: #0578B1;">
+      <div class="col-sm-12 col-md-9 col-lg-8 d-flex justify-content-center align-items-center ">
+        <h2 class="heading text-center mb-0 " style="font-weight: 700; ">Why Wait? Your Smile Deserves the Best Today!
+        </h2>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-4 p-3  py-md-1   d-flex justify-content-center align-items-center">
+        <a href="#" data-toggle="modal" data-target="#form" class="btn btn__primary btn__rounded"
+          style="background-color:#FF7F00;border-radius:30px;">
+          <span class="text-light fw-bolder text-fixed p-4">Unlock Exclusive Offer </span>
+        </a>
+      </div>
+    </div>
+  </div>
+<style>
+.heading{
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+  .text-fix{
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  @media (max-width: 768px) {
+    .text-fixed {
+      font-size: 17px;
+    }
+    .heading{
+      font-size: 1.4rem;
+    }
+  }
+</style>
+
+
+<div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content" style="background-color: transparent; border:none;">
+                    <img width="45%" src="download.png" style="margin:auto; z-index:9" loading="lazy" alt="download">
+                    <div class="modal-header border-bottom-0 bg-white" style="margin-top: -100px;
+    padding-top: 100px;">
+                        <h3 class="modal-title fw-bolder fs-4" id="exampleModalLabel" style="text-align:center;">Book an Appointment</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form method="POST" action="mail.php" class="bg-white px-3">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="form-group col-12">
+                                    <input type="hidden" id="redirect_to" name="redirect_to" value="">
+
+                                    <label for="first-name" class="fw-bolder">Full Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="fname" aria-describedby=""
+                                        name="fullname" placeholder="Enter Full Name" required
+                                        style="height: 50px !important;">
+
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="number" class="fw-bolder">Phone Number <span class="text-danger">*</span></label>
+                                    <input type="tel" class="form-control" id="number" aria-describedby=""
+                                        placeholder="Enter Phone Number" name="mobile" required
+                                        style="height: 50px !important;">
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="email" class="fw-bolder">Email <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email" name="email"
+                                        required style="height: 50px !important;">
+                                    <input type="hidden" name="services" value="-">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="postcode" class="fw-bolder">Postal Code<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="postcode" placeholder="Postal Code"
+                                        name="postcode" required style="height: 50px !important;">
+                                    <input type="hidden" name="services" value="-">
+
+
+                                    <input type="hidden" class="form-control" name="UTM_Campaign"
+                                        value="<?php echo $UTM_Campaign; ?>">
+
+                                    <input type="hidden" class="form-control" name="UTM_Medium"
+                                        value="<?php echo $UTM_Medium; ?>">
+
+                                    <input type="hidden" class="form-control" name="UTM_Source"
+                                        value="<?php echo $UTM_Source; ?>">
+                                        
+                                          
+                                    <input type="hidden" class="form-control" name="utm_term" value="<?php echo $utm_term; ?>">
+                                             
+                                    <input type="hidden" class="form-control" name="utm_content" value="<?php echo $utm_content; ?>">
+            
+
+
+                                </div>
+                                <div class="modal-footer border-top-1  m-1" style="justify-content: start;" >
+                                    <button type="submit" class="btn btn-dark p-3" >Submit</button>
+                                 </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[data-target="#form"]').forEach(el => {
+    el.addEventListener('click', function() {
+      const btnText = el.innerText.trim();
+      const redirectInput = document.getElementById('redirect_to');
+
+      if (btnText === 'View Our Achievements') {
+        redirectInput.value = 'awards';
+      } else if (btnText === 'Explore Careers') {
+        redirectInput.value = 'hiring';
+      } else {
+        redirectInput.value = '';
+      }
+    });
+  });
+});
+</script>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
